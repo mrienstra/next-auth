@@ -86,7 +86,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
 })
 ```
 
-2. Add a Route Handler under `/app/api/auth/[...nextauth]/route.ts`.
+2. Add a Route Handler under `/app/api/auth/[...nextauth]/route.ts` (`mkdir -p "app/api/auth/[...nextauth]" && code "app/api/auth/[...nextauth]/route.ts"`).
 
 <Callout>
   This file must be an App Router Route Handler, however, the rest of your app
